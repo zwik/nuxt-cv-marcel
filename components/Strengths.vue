@@ -32,8 +32,8 @@ export default {
 
 <style scoped>
 .local-icon {
-  @apply w-6 !important;
-  @apply h-6 !important;
+  @apply w-6;
+  @apply h-6;
 }
 
 .strengths {
