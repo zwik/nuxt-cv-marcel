@@ -1,0 +1,27 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+h1 {
+  font-family: 'Handlee', cursive;
+  color: theme('colors.pured');
+  @apply text-4xl;
+}
+
+h2 {
+  @apply text-xl;
+}
+
+p {
+  @apply mt-1;
+  @apply mb-3;
+}
+
+section.strengths .icon,
+section.experience .icon {
+  @apply text-pured;
+}
+
+section.interests .icon {
+  @apply text-publue;
+}
