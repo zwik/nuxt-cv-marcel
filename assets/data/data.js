@@ -5,8 +5,14 @@ const data = {
   skills: ['Javascript', 'Vue', 'Node', 'Tailwind', 'Git'],
   experience: [
     {
+      title: 'CPMFactory',
+      timespan: 'februari 2021 - nu',
+      description: 'Werkzaam als full-stack developer waar we een Node.js backend met een Vue frontend combineren in combinatie met websockets',
+      tech: ['Javascript', 'Typescript', 'Node', 'Vue', 'Tailwind', 'Git']
+    },
+    {
       title: 'BWise / Nasdaq / SAI Global',
-      timespan: 'september 2012 - nu',
+      timespan: 'september 2012 - januari 2021',
       description:
         'Eerste twee jaar als mobile frontend developer met Sencha Touch gewerkt waar we geprobeerd hebben mobile naar onze klanten te brengen. Helaas was de markt er nog niet klaar voor waardoor we de oude JSP frontend zijn gaan vervangen met Sencha Ext. Dit hebben ik ongeveer 5 jaar gedaan. Na Sencha Ext zijn we de frontend gaan vernieuwen met Vue.js. Naast ontwikkelen heb ik ook veel gewerkt aan de CI en CD straat met behulp van o.a. Jenkins, Docker en Puppet. Ik ben dus zeker niet vies van DevOps! We hebben hier twee overnames gehad.',
       tech: ['Javascript', 'Sencha', 'Vue', 'Tailwind', 'Git', 'Jenkins', 'Docker', 'Puppet']
