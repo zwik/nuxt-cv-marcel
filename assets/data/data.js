@@ -7,7 +7,7 @@ const data = {
     {
       title: 'CPMFactory',
       timespan: 'februari 2021 - nu',
-      description: 'Werkzaam als full-stack developer waar we een Node.js backend met een Vue frontend combineren in combinatie met websockets',
+      description: 'Werkzaam als full-stack developer waar we een Node.js backend met een Vue frontend combineren in combinatie met websockets.',
       tech: ['Javascript', 'Typescript', 'Node', 'Vue', 'Tailwind', 'Git']
     },
     {
@@ -28,7 +28,7 @@ const data = {
       title: 'QBIX / QYN',
       timespan: 'augustus 2007 - mei 2008',
       description:
-        'Begonnen als junior ontwikkelaar met Java om prototypes te ontwikellen voor reclamezuilen in bijvoorbeeld een supermarkt. Na de samensmelting van drie andere bedrijven zijn we ons meer gaan richten op narrowcasting doeleinden en hebben daar scheduling programmatuur voot ontwikkeld zodat de klant kan kiezen wanneer welke commercials getoond worden.',
+        'Begonnen als junior ontwikkelaar met Java om prototypes te ontwikellen voor reclamezuilen in bijvoorbeeld een supermarkt. Na de samensmelting van drie andere bedrijven zijn we ons meer gaan richten op narrowcasting doeleinden en hebben daar scheduling programmatuur voor ontwikkeld zodat de klant kan kiezen wanneer welke commercials getoond worden.',
       tech: ['Java', 'PHP']
     }
   ],
