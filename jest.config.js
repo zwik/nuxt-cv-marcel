@@ -11,6 +11,7 @@ module.exports = {
   ],
   transform: {
     '^.+\\.js$': 'babel-jest',
+    '^.+\\.md$': 'markdown-loader-jest',
     '.*\\.(vue)$': 'vue-jest'
   },
   collectCoverage: true,
