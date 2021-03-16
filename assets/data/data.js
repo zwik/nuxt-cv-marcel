@@ -8,7 +8,7 @@ const data = {
       title: 'CPMFactory',
       timespan: 'februari 2021 - nu',
       description: 'Werkzaam als full-stack developer waar we een Node.js backend met een Vue frontend combineren in combinatie met websockets.',
-      tech: ['Javascript', 'Typescript', 'Node', 'Vue', 'Tailwind', 'Git']
+      tech: ['Javascript', 'Typescript', 'Node', 'Vue', 'Tailwind', 'MSSQL', 'Git']
     },
     {
       title: 'BWise / Nasdaq / SAI Global',

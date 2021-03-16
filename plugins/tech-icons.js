@@ -15,6 +15,7 @@ import java from 'simple-icons/icons/java'
 import php from 'simple-icons/icons/php'
 import typescript from 'simple-icons/icons/typescript'
 import mongo from 'simple-icons/icons/mongodb'
+import mssql from 'simple-icons/icons/microsoftsqlserver'
 
 export default function Icons (tech) {
   return tech.reduce((acc, name) => {
@@ -136,6 +137,13 @@ export default function Icons (tech) {
         acc.push({
           name,
           icon: mongo.svg
+        })
+        return acc
+
+      case 'MSSQL':
+        acc.push({
+          name,
+          icon: mssql.svg
         })
         return acc
 
