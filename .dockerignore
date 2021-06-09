@@ -1,0 +1,9 @@
+# hidden directories
+.git
+.github
+.nuxt
+
+# normal directories
+node_modules
+coverage
+dist
