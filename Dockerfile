@@ -1,4 +1,5 @@
 FROM node:14.17.0 as build
+USER node
 WORKDIR /app
 COPY --chown=node:node ["package.json", "package-lock.json", "/app/"]
 RUN npm ci
