@@ -17,7 +17,7 @@
     "@nuxtjs/pwa": "^3.3.5",
     "nuxt": "^2.15.7",
     "nuxt-fontawesome": "^0.4.0",
-    "simple-icons": "^5.8.1"
+    "simple-icons": "^5.9.0"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^6.0.1",
