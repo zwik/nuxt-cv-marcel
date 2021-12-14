@@ -20,7 +20,7 @@
 
 <script>
 export default {
-  name: 'Strengths',
+  name: 'StrengthsContainer',
   props: {
     strengths: {
       type: Array,

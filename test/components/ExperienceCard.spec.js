@@ -1,9 +1,9 @@
 import { mount } from '@vue/test-utils'
-import Experience from '../../components/Experience.vue'
+import ExperienceCard from '../../components/ExperienceCard.vue'
 
 describe('Experience.vue', () => {
   it('should display a card with info', () => {
-    const wrapper = mount(Experience, {
+    const wrapper = mount(ExperienceCard, {
       propsData: {
         experience: [{ title: 'title', timespan: '2021', description: 'description' }]
       },

@@ -4,7 +4,7 @@
 
 <script>
 export default {
-  title: 'Introduction',
+  title: 'IntroductionContainer',
   props: {
     introduction: {
       type: String,

@@ -1,7 +1,7 @@
 <template>
   <section class="experience px-4 py2 m-2">
     <h1>Ervaring</h1>
-    <Card
+    <DisplayCard
       v-for="exp in experience"
       :key="exp.title"
       :title="exp.title"
@@ -13,12 +13,12 @@
 </template>
 
 <script>
-import Card from './Card'
+import DisplayCard from './DisplayCard'
 
 export default {
-  name: 'Experience',
+  name: 'ExperienceCard',
   components: {
-    Card
+    DisplayCard
   },
   props: {
     experience: {

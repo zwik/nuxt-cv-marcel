@@ -3,7 +3,7 @@
     <h1>
       Interesses
     </h1>
-    <Card
+    <DisplayCard
       v-for="interest in interests"
       :key="interest.title"
       :title="interest.title"
@@ -14,12 +14,12 @@
 </template>
 
 <script>
-import Card from './Card'
+import DisplayCard from './DisplayCard'
 
 export default {
-  name: 'Interests',
+  name: 'InterestsCard',
   components: {
-    Card
+    DisplayCard
   },
   props: {
     interests: {

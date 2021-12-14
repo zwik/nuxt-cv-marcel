@@ -15,7 +15,7 @@
 import Icons from '~/plugins/tech-icons'
 
 export default {
-  name: 'Skills',
+  name: 'SkillsContainer',
   props: {
     skills: {
       type: Array,

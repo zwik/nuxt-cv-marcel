@@ -28,7 +28,7 @@
 
 <script>
 export default {
-  name: 'Identification',
+  name: 'IdentificationContainer',
   props: {
     name: {
       type: String,

@@ -27,7 +27,7 @@
 import Icons from '~/plugins/tech-icons'
 
 export default {
-  name: 'Card',
+  name: 'DisplayCard',
   props: {
     title: {
       type: String,
