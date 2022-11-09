@@ -1,6 +1,6 @@
 import {
   siJavascript, siVuedotjs, siNodedotjs, siTailwindcss, siGit, siSencha, siJenkins, siDocker, siPuppet, siAdobefonts,
-  siAdobephotoshop, siC, siCplusplus, siJava, siPhp, siTypescript, siMongodb, siMicrosoftsqlserver
+  siAdobephotoshop, siC, siCplusplus, siPhp, siTypescript, siMongodb, siMicrosoftsqlserver
 } from 'simple-icons/icons'
 
 export default function Icons (tech) {
@@ -100,8 +100,7 @@ export default function Icons (tech) {
 
       case 'Java':
         acc.push({
-          name,
-          icon: siJava.svg
+          name
         })
         return acc
 
