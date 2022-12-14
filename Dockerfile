@@ -7,5 +7,5 @@ COPY --chown=node:node . .
 RUN npm run build
 RUN npm run generate
 
-FROM nginx:1.23.2
+FROM nginx:1.23.3
 COPY --from=build /app/dist /usr/share/nginx/html
