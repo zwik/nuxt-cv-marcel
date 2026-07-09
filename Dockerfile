@@ -1,4 +1,4 @@
-FROM node:26.4.0 as build
+FROM node:26.5.0 as build
 USER node
 WORKDIR /app
 COPY --chown=node:node ["package.json", "package-lock.json", "/app/"]
